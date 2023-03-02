@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.image-section{
+    background-image: url(image/coding.jpg);
+    min-height: 130vh;
+    background-position: centre;
+    background-size: cover;
+}
+
+.header-section{
+     display: flex;
+
+}
+
+.text-container{
+    color: white;
+    margin: 0 auto;
+    max-width: 650px;
+    padding-top: 20px;
+    padding-left: 0 px;
+    font-size: 25px;
+}
+
+.side-bar button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.lg-text{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.quote{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 260px; */
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+
+.quote h2{
+    font-size: 25px;
+    font-weight: 100;
+
+}
+
+.quote h2 span{
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+.bottom-section{
+    display: flex;
+    padding-top: 10px;
+}
+
+.contact{
+    background-color: rgb(68, 177, 183);
+    color: white;
+}
+
+.about-me{
+    background-color: rgb(112, 194, 221);
+    color: white;
+}
+
+.contact,.about-me{
+    flex: 1;
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+
+.contact p,.about-me p{
+    margin-bottom: 20px;
+}
+
+.footer{
+    flex: 1;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+.about button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 8px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    padding-top: 10px;
+    padding-left: 45px;
+
+}
+
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card h2{
+    padding-left: 10px;
+}
+
+.card p{
+    padding-left: 10px;
+}
+
+
+    
+    
+
+
+
+
+
